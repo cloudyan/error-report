@@ -12,6 +12,7 @@ npm install js-error-report
 
 ## 使用
 
+```js
 import * as errorReport from "error-report";
 import vueErr from "vue-error-report";
 
@@ -23,6 +24,7 @@ errorReport.init({
 
 errorReport.notifyError(err);
 errorReport.notify('test', '测试是否通顺');
+```
 
 参考：
 
