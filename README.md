@@ -1,9 +1,10 @@
 # js-error-report
 
-错误上报
+实现 js 错误上报，可用于以下场景
 
-undebug 的 Vue 错误监控插件
-实时监控前端 JavaSript 应用的错误，助您提升用户体验
+- web
+- vue
+- 小程序
 
 ## 安装
 
@@ -11,11 +12,17 @@ npm install js-error-report
 
 ## 使用
 
-import * as jsErrorReport from "js-error-report";
+import * as errorReport from "error-report";
 import vueErr from "vue-error-report";
-fundebug.apikey = "YOUR-APIKEY";
-fundebugVue(fundebug, Vue);
-其中，获取apikey需要免费注册帐号并且创建项目。
+
+errorReport.init({
+  reportURI: '', // 上报 url 信息
+  appName: 'xxx', // 平台项目标识
+  systemInfo: {}, // 系统信息
+});
+
+errorReport.notifyError(err);
+errorReport.notify('test', '测试是否通顺');
 
 参考：
 
