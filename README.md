@@ -8,7 +8,9 @@
 
 ## 安装
 
+```bash
 npm install js-error-report
+```
 
 ## 使用
 
