@@ -1,5 +1,7 @@
 # js-error-report
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cloudyan/error-report.svg)](https://greenkeeper.io/)
+
 实现 js 错误上报，可用于以下场景
 
 - web
