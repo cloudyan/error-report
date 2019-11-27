@@ -8,6 +8,8 @@
 
 **注意：**window.onerror 能捕捉到语法错误，但是语法出错的代码块不能跟window.onerror 在同一个块（语法都没过，更别提 window.onerror 会被执行了）
 
+计划合并到数据统计中，项目作为研究错误捕获以及sourceMap 映射。
+
 ## 安装
 
 ```bash
